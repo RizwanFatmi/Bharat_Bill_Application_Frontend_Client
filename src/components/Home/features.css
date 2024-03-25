@@ -1,0 +1,74 @@
+.Features{
+background-color: rgb(245, 251, 255);
+padding-top: 80px;
+margin-top: -90px;
+}
+
+
+.FeaturesHeading{
+    color: rgb(3, 76, 136);
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;  
+    padding-left: 10px;
+    padding-right: 10px; 
+ 
+}
+
+
+.FeaturesBody{
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+}
+
+.featuresCard{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    color: rgb(3, 76, 136);
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: solid 3px rgb(138, 198, 247);
+}
+
+.featuresCard:hover{
+    width: 120%;
+    max-width: 270px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+.iconbox{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.cardcol{
+    min-width: 240px;
+}
+
+@media only screen and (max-width: 512px) {
+    .cardcol{
+        min-width: 100%;
+    }
+
+}

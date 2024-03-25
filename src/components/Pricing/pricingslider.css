@@ -1,0 +1,9 @@
+.Pricingslider{
+    background: linear-gradient(to bottom, #0a68b6 15%,  rgb(3, 5, 129) 100%);
+    background-color: black;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom:1%;
+}

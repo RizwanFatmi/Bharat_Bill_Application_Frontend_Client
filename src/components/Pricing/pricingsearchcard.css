@@ -1,0 +1,97 @@
+.section1 {
+    background-color: rgba(237, 236, 233, 1);
+
+}
+
+.section1 input[type=text] {
+    padding: 5px;
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 18%;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section1 hr{
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+.section2 {
+    background-color: rgba(237, 236, 233, 1);
+    margin-bottom: -40px;
+
+}
+.section2 .btn1{
+    background-color: rgba(162, 145, 91, 1);
+    color: white;
+    border-radius: 19px;
+    margin-top: 4%;
+    padding: 10px;
+    width: 80%;
+
+}
+
+.section2 .btn1:hover{
+    background-color: rgba(162, 145, 91, 1);
+    color: white;
+}
+.section2 .card1{
+   
+    border-radius: 10px;
+    width: 98%;
+    box-shadow: rgb(212, 212, 212) 0px 5px 15px;
+    margin-bottom: 20px;
+}
+
+
+.section2 .card1:hover{
+    width: 100%;
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section2 .para{
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.section2 .para2{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(131, 129, 129);
+}
+
+
+.PricingTick{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+.section2 .buy{
+    padding: 8px;
+    width: 100%;
+    color: white;
+    background-color: rgb(6, 96, 170);
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+
+.section2 .buy:hover{
+    background-color: rgb(23, 86, 138);
+}
+
+.PricingTitle{
+    color: rgb(41, 97, 180);
+}
+
+.PricingTick{
+    color: rgb(41, 97, 180);
+    font-size: 19px;
+    margin-top: 15px;
+}

@@ -1,0 +1,123 @@
+.Sidebar{
+    min-height: 700px ;
+    min-width:250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ProfilePic{
+    border-radius: 100px; 
+}
+
+.ImgBox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ProfileTitle{
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.SidebarButton{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-align: start;
+    padding-left: 20px;
+    border: none;
+    color: rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(233, 233, 236);
+}
+
+.SidebarButtonActive{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #faf9f9;
+    text-align: start;
+    padding-left: 20px;
+    border: none;
+    color: rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(233, 233, 236);
+    border-left: 8px solid red;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.SidebarButton:hover{
+    background-color: #faf9f9;
+}
+
+.ButtonSet{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ContentBox{
+    background-color: #f1f1f1;
+    box-shadow: inset  10px 0 20px -6px #888888;
+}
+
+.PasswordInputBox{
+    border: none;
+    outline: none;
+    width: 87%;
+}
+
+
+@media (max-width: 992px) {
+    .Sidebar{
+        width: 100%;
+        max-width: 500px;
+        border: 1px solid rgb(6, 96, 170);
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+   }
+
+
+   @media (max-width: 562px) {
+    .Sidebar{
+     border: none;
+        
+    }
+
+   }
+
+   @media (max-width: 488px) {
+    .PasswordInputBox{
+        width: 85%;
+    }
+   }
+
+   @media (max-width: 448px) {
+    .PasswordInputBox{
+        width: 82%;
+    }
+   }
+
+   @media (max-width: 403px) {
+    .PasswordInputBox{
+        width: 79%;
+    }
+   }
+
+
+   @media (max-width: 372px) {
+    .PasswordInputBox{
+        width: 76%;
+    }
+   }

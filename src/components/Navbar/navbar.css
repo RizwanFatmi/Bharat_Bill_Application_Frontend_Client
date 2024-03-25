@@ -1,0 +1,183 @@
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: #0a68b6;
+    z-index: 20;
+    
+}
+
+
+.centerData{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 38%;
+}
+
+
+
+nav .navbar-brand {
+    color: rgb(245, 247, 247);
+    font-size: 18px;
+    font-weight: 700;
+  
+    z-index: 20;
+
+}
+
+nav ul {
+    margin-left: 60px;
+}
+nav ul li {
+    padding: 13px;
+    color: white;
+
+}
+
+nav ul li .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+  
+nav ul li .nav-link a:active {
+    color: #0C5CB0;
+}  
+  
+  
+
+nav ul li .nav-link:hover{
+    color: #6bbece;
+
+}
+nav ul li .nav-link.active{ background-color: #100741; }
+nav ul li .nav-link.active a{ color: #206de0; }
+
+
+nav .form-inline input {
+    border-radius: 120px;
+
+}
+
+nav .form-inline input::placeholder {
+    font-size: 13px;
+}
+
+nav .btn1 {
+    background-color: #020f1d;
+    color: white;
+    font-size: 13px;
+    border-radius: 40px;
+}
+nav .btn1 a{
+    color: white;
+    text-decoration: none;
+}
+
+nav .btn1:hover{
+    background-color: rgb(253, 250, 238);
+    color: #0C5CB0 ;
+}
+
+nav .btn2 {
+    background-color: rgb(255, 254, 249);
+    color: #166AC2;
+    font-size: 13px;
+    border-radius: 40px;
+}
+nav .btn2 a{
+    color: white;
+    text-decoration: none;
+}
+nav .btn2:hover{
+    background-color:#0C5CB0;
+}
+
+
+
+
+
+nav .btn3 {
+    background-color: rgb(255, 254, 249);
+    color: #166AC2;
+    font-size: 13px;
+    border-radius: 12px;
+}
+
+nav .btn3 a{
+    color:  #166AC2;
+    text-decoration: none;
+}
+
+nav .btn3:hover{
+    background-color:#0C5CB0;
+    color: white;
+}
+
+
+nav .btn4 {
+    background-color: #166AC2;
+    color: white;
+    font-size: 13px;
+    border-radius: 12px;
+}
+
+nav .btn4 a{
+    color:  white;
+    text-decoration: none;
+}
+
+nav .btn4:hover{
+   color:#0C5CB0;
+    background-color: white;
+}
+
+
+@media (max-width: 992px) {
+   
+.desktop{
+
+   display: none;
+
+}
+
+.centerData{
+    margin-left: 0;
+    width: 62vw;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+  }
+
+
+
+
+  @media (min-width: 991px) {
+   
+    .mob{
+    
+       display: none;
+    
+    }
+    
+    .profile{
+        margin-left: auto;
+    }
+ 
+  
+      }
+
+
+    
+    
+.loginlogo:hover{
+    opacity: 0.8;
+}
+
+

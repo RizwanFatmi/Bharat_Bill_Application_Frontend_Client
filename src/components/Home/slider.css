@@ -1,0 +1,63 @@
+.HomeSlider {
+    background: linear-gradient(to bottom, #0a68b6 20%,  rgb(3, 5, 129) 100%);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+
+
+.HomeSlider .slidertext h4 {
+    color: rgb(247, 247, 247);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.HomeSlider .slidertext .btn {
+    background-color: #24DFD9;
+    color: rgb(255, 251, 251);
+    border-radius: 15px;
+
+}
+
+.HomeSlider .slidertext .btn:hover {
+    background-color: #0dcac4;
+}
+
+
+.sliderimage{
+height: 500px;
+width: auto;
+}
+
+.extension{
+    height: 90px;
+}
+
+
+@media (max-width: 1081px) {
+    .sliderimage{
+        height: 400px;
+        width: auto;
+        }
+}
+
+@media (max-width: 993px) {
+    .imagebox{
+        display: none;
+    }
+}
+
+@media (max-width: 695px) {
+
+ 
+
+   .cont{
+    min-width: 300px;
+   }
+
+   .extension{
+    height: 90px;
+}
+}

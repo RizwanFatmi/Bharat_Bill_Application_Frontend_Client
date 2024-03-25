@@ -1,0 +1,53 @@
+.freeaccountbox{
+
+     background-color: #0a68b6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+
+}
+
+.boxContent{
+    color: white;
+    min-width: 250px;
+   
+}
+
+.getStartedBTN{
+    background-color: #0a68b6;
+    border: solid 1px white;
+    color: rgb(255, 251, 251);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.getStartedBTN:hover{
+    background-color: #075ca1;
+}
+
+
+.boxButton{
+    text-align: end;
+}
+
+
+@media only screen and (max-width: 962px) {
+  
+.boxButton{
+    text-align: start;
+}
+}
+
+
+@media only screen and (max-width: 512px) {
+    .freeaccountbox{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    }

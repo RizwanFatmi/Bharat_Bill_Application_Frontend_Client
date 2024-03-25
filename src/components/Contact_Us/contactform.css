@@ -1,0 +1,77 @@
+.contactformsection{
+  
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.contactformsection .form{
+ 
+    width: 100%;
+    padding: 3%;
+    margin-left: 10px;
+}
+
+.contactformsection .content{
+    background: linear-gradient(to top, rgb(116, 233, 248)  10%,  #0e73c7 100%);
+    color: rgb(4, 1, 26);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.contactformsection .content h5{
+    font-size: 30px;
+}
+
+.contactformsection .form form{
+    margin-top: 30px;
+}
+.contactformsection .form label{
+    font-size: 13px;
+}
+.inputData {
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+
+
+ .ContactUsFormSendMessageBtn{
+    padding: 8px;
+    width: 100%;
+    color: white;
+    background-color: rgb(6, 96, 170);
+    font-size: 17px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.ContactUsFormSendMessageBtn:hover{
+    background-color: rgb(23, 86, 138);
+}
+
+.ContactInfo{
+    border-radius: 7px;
+}
+
+.ctitle{
+    font-weight: 700;
+    color: #114269;
+}
+
+
+@media (max-width: 900px) {
+.content{
+    width: 100%;
+    display: none;
+}
+
+.formBox{
+    width: 100%;
+}
+
+.ContactInfo{
+    border-radius: none;
+}
+}

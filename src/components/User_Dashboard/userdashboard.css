@@ -1,0 +1,335 @@
+.ContentBox{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.WhiteContentBox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 700px;
+    border-radius: 15px;
+ 
+}
+
+.ProductTableBox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1050px;
+    border-radius: 15px;
+ 
+}
+
+.ImgUploadBox{
+    height: 150px;
+    width: 150px;  
+}
+
+.ImgContentBox{
+    margin-top: 60px;
+}
+
+.ImgUploadBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.SaveChanges{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(6, 96, 170);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px; 
+}
+
+
+
+
+.DeleteBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(201, 10, 10);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;  
+}
+
+
+.DeleteBtn:hover{
+    background-color: rgb(109, 4, 4);
+    
+}
+
+.SaveChanges:hover{
+    background-color: rgb(23, 86, 138);
+    
+}
+
+.ImgUploadBtn:hover{
+    background-color: rgb(4, 82, 4);
+}
+
+.ImgBoxText{
+    font-size: 14px;
+    color: gray;
+}
+
+.ProfileChangeInput{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none; 
+    box-shadow:  0px 1px 2px   rgb(243, 243, 243);
+    
+}
+
+.ProductUpperPart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SearchInput{
+    width: 48% ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: inset 1px 1px 2px 0 rgb(204, 203, 203);
+    min-width: 220px;
+  
+}
+
+
+
+.ProfileChangeTitle{
+    font-size: 17px;
+    color: rgb(102, 102, 102);
+    margin-top: 20px;  
+    font-weight: 400;  
+}
+
+.tablerow:hover{
+   font-size: 16px;
+   font-weight: 500;
+   background: #fcfcfc;
+}
+
+.tablerow{
+   cursor: pointer;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.EditProduct{
+    font-size: 18px;
+    color: rgb(105, 105, 105) ;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.EditProduct:hover{
+color: rgb(8, 8, 8)
+}
+
+.DeleteProduct{
+    font-size: 20px;
+    color: rgb(238, 12, 12) ;
+}
+
+.DeleteProduct:hover{
+    color: rgb(160, 5, 5);
+}
+
+.pagination{
+    width: 300px;
+    margin-left: auto;
+}
+
+
+.pdfbtn{
+   padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgb(231, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px; 
+    margin-left: 1px
+}
+
+.xclbtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgb(5, 138, 12);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px; 
+    margin-left: 1px
+}
+
+
+.printbtn{
+   padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgb(248, 170, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px; 
+    margin-left: 1px
+}
+
+
+.pdfbtn:hover{
+    background-color: rgb(196, 13, 13);
+}
+
+.xclbtn:hover{
+    background-color: rgb(5, 110, 10);
+}
+
+
+.printbtn:hover{
+    background-color: rgb(221, 153, 5);
+}
+
+
+.dashboarsBox{
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px gray;
+    padding: 30px;
+}
+
+
+.AddNewProductBtn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: rgb(0, 181, 236);
+    border: solid 1px rgb(0, 181, 236);
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.AddNewProductBtn:hover{
+    background-color: rgb(0, 181, 236);
+    color: white;
+    
+}
+
+
+.SaveChanges004:hover{
+    background-color: rgb(172, 5, 5);
+}
+
+.SaveChanges004{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(197, 13, 22);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px; 
+    box-shadow:  0px 0px 7px   rgb(216, 216, 216);
+    font-weight: 500;
+}
+
+
+.table-responsive{
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px gray;
+}
+
+
+@media (max-width: 1286px) {
+    .SearchInput{
+        width: 40% ;
+    }
+    }
+
+@media (max-width: 1183px) {
+    .SearchInput{
+        width: 30% ;
+    }
+    }    
+
+
+@media (max-width: 992px) {
+   .ContentBox{
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: none;
+    width: 97%;
+   }
+   }
+
+
+
+
+    @media (max-width: 562px) {
+
+       
+        .ContentBox{
+            margin-top: -120px;
+            }
+        .ImgContentBox{
+            margin-top: 20px;
+            width: 150%;
+        }
+        .btnSeprator{
+        width: 100%;
+        text-align: center;
+        }
+        .DeleteBtn{
+            margin-right: 25px;
+        }
+        
+        }

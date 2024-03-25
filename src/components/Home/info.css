@@ -1,0 +1,21 @@
+.tickicon{
+    color: rgb(51, 130, 167);
+    font-size: 25px;
+}
+
+.infobg{
+ 
+    color: rgb(42, 112, 145);
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+@media (max-width: 991px) {
+
+    .HomePageInfo{
+        display: none;
+    }
+}
